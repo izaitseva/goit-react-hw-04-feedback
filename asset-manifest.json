@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/izaitseva/goit-react-hw-02-feedback.git/static/css/main.7acaea2f.css",
-    "main.js": "/izaitseva/goit-react-hw-02-feedback.git/static/js/main.07d3183d.js",
+    "main.js": "/izaitseva/goit-react-hw-02-feedback.git/static/js/main.b7dddde7.js",
     "index.html": "/izaitseva/goit-react-hw-02-feedback.git/index.html",
     "main.7acaea2f.css.map": "/izaitseva/goit-react-hw-02-feedback.git/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/izaitseva/goit-react-hw-02-feedback.git/static/js/main.07d3183d.js.map"
+    "main.b7dddde7.js.map": "/izaitseva/goit-react-hw-02-feedback.git/static/js/main.b7dddde7.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.b7dddde7.js"
   ]
 }
