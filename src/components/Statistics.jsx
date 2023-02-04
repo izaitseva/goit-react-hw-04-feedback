@@ -2,7 +2,7 @@ import React from "react";
 // import "./Counter.css";
 // import { render } from "react-dom";
 
-class Feedback extends React.Component {
+class Statistics extends React.Component {
 
     state = {
         good: 0,
@@ -69,4 +69,4 @@ class Feedback extends React.Component {
         )
     }
 }
-export default Feedback;
+export default Statistics;
