@@ -20,5 +20,5 @@ FeedbackOptions.propTypes = {
 
 FeedbackOptions.propTypes = {
   onLeaveFeedback: PropTypes.func.isRequired,
-  options: PropTypes.oneOf(['good', 'neutral', 'bad'])
-};
+  options: PropTypes.arrayOf(PropTypes.string).isRequired
+} 
