@@ -1,27 +1,19 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
-export class FeedbackOptions extends React.Component {
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+    return options.map(option => (
+      <button
+        className="name"
+        type="button"
+        key={option}
+        onClick={() => onLeaveFeedback(option)}
+      >
+        {option}
+      </button>
+    ));
+  };
 
-    handleGood = () => {
-       this.props.onLeaveFeedback('good')
-    }
-
-    handleNeutral = () => {
-        this.props.onLeaveFeedback('neutral')
-    }
-
-    handleBad = () => {
-        this.props.onLeaveFeedback('bad')
-    }
-
-    render() {
-
-        return (
-            <div>
-                <button onClick={this.handleGood}>Good</button>
-                <button onClick={this.handleNeutral}>Neutral</button>
-                <button onClick={this.handleBad}>Bad</button>
-            </div>
-        )
-    }
-}
+  FeedbackOptions.propTypes = {
+    option: PropTypes.string
+  };

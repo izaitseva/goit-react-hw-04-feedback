@@ -53,7 +53,7 @@ export class App extends React.Component {
 
     return (
       <Section title="Please leave feedback">
-        <FeedbackOptions onLeaveFeedback={this.onLeaveFeedback} />
+        <FeedbackOptions options={Object.keys(this.state)} onLeaveFeedback={this.onLeaveFeedback} />
         {total === 0
           ? <Notification message="There is no feedback" />
           : <Statistics
