@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 
 export const Section = ({ title, children }) => {
+
     return (
         <div style={{
             height: '100vh',

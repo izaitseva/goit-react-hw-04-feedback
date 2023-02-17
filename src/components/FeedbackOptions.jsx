@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
-export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+export default function FeedbackOptions({ options, onLeaveFeedback }) {
   return options.map(option => (
     <button
       className="name"
